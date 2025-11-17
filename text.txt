@@ -1,0 +1,58 @@
+Fibonacci
+
+python using  an iterative approach with a loop or a recursive approach.
+larger numbers uses loop to calculate each adding and two previous ones
+starting with o and 1
+function calling itself to find the sum of the two preceding number
+slower calculation for large inputs
+
+
+sum_of_digit
+
+Calculating the sum of digits in a number in Python involves extracting each digit and adding them together. There are several ways to achieve this, with two common approaches being using string conversion or a mathematical approach with loops.
+
+reverse_string
+To reverse the digits of a number in Python, a common and concise method involves converting the number to a string, reversing the string, and then converting it back to an integer.
+
+coun_even
+even numbers are present within a given sequence, such as a list or a range of numbers.
+
+
+
+fizzbuzz(n)
+
+The fizzbuzz(n) function in Python typically refers to a function that implements the classic FizzBuzz programming problem. The problem requires iterating through a sequence of numbers (usually from 1 up to a given n) and applying specific rules for printing: 
+
+is_palindrome(n):
+
+A palindrome is a sequence that reads the same forwards and backward. In Python, a function to check if a string or number is a palindrome can be implemented in several ways.
+
+(GCD):
+n Python, the Greatest Common Divisor (GCD) of two numbers can be found using the built-in math.gcd() function or by implementing the Euclidean algorithm.
+
+lcm:
+In Python, the Least Common Multiple (LCM) of two or more numbers can be found using the math.lcm() function, which was introduced in Python 3.9.
+
+
+count_vowels:
+
+A count_vowels function in Python takes a string as input and returns the number of vowels present in that string.
+
+second_largest:
+To find the second largest number in a list using Python, several approaches can be used. One common and straightforward method involves sorting the list.
+
+prime_factors:
+In Python, finding the prime factors of a number involves writing a function or a set of instructions that identify all the prime numbers that, when multiplied together, result in the original number.
+
+
+power(base, exp):
+In Python, the power(base, exp) operation, which calculates the base raised to the power of the exponent, can be achieved in several ways:
+
+
+decimal integer:
+In Python, converting a decimal integer to its binary representation can be achieved using several methods. 
+
+
+sum_until_negative():
+To define a Python function that sums numbers until a negative number is encountered, you can use a while loop and continuously take input from the user.
+
