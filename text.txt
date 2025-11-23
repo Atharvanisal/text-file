@@ -1,3 +1,24 @@
+Write a function is_prime(n) that checks whether n is a prime number.
+
+Prime Number - A number which is only divisible by 1 and itself. No other numbers between 1 to itself can devide it.
+
+1. For given number n, start counting from 2 to n-1, as divider.
+2. For each divider and n as dividend, try dividing them.
+3. If it is divisable, then n is not a prime number.
+4. Otherwise check the next number.
+5. If all numbers checked then n is a prime number.
+
+
+def is_prime(n):
+
+  for i in range(2, n-1):
+    r = n % i
+    if r == 0:
+      print(n + " Is not a prime number")
+      return
+  
+  print(n + " Is a prime number")
+
 Fibonacci
 
 python using  an iterative approach with a loop or a recursive approach.
@@ -55,4 +76,5 @@ In Python, converting a decimal integer to its binary representation can be achi
 
 sum_until_negative():
 To define a Python function that sums numbers until a negative number is encountered, you can use a while loop and continuously take input from the user.
+
 
